@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  width: 100%;
+  height: 125px;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgb(148, 215, 241);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+  color: rgb(11, 11, 12);
+  padding-top: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 8px;
+  word-spacing: 10px;
+  border-top: 5px inset rgb(47, 193, 238);
+  border-bottom: 5px inset rgb(23, 108, 179);
+  border-radius: 40px;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 140px auto 0;
+  background-color: white;
+}
+
+.card-container {
+  display: flex;
+  padding: 20px 0;
+}
+
+.tool-card {
+  background-color: #eef1f5;
+  width: 300px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.tool-card:hover {
+  transform: scale(1.03);
+}
+
+.tool-card img {
+  width: 100%;
+  height: auto;
+}
+
+.tool-info {
+  padding: 15px;
+}
+
+.tool-info h2 {
+  margin: 0;
+  color: #003366;
+  font-size: 20px;
+}
+
+.tool-info p {
+  margin-top: 8px;
+  color: #333;
+}
+
+.link-container {
+  text-align: center;
+  margin: 30px;
+}
+
+a {
+  text-decoration: none;
+  background-color: rgb(151, 151, 230);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: rgb(88, 109, 168);
+  color: white;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+}

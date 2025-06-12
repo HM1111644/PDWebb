@@ -1,0 +1,30 @@
+
+.redes-enlaces a {
+  font-size: 20px;
+  margin: 10px;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.redes-enlaces a:hover {
+  text-decoration: underline;
+}
+
+.boton-redes {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.boton-redes:hover {
+  background-color: #004999;
+}
+.hip{
+   
+  border-bottom: 5px inset rgb(51, 154, 238);
+  border-radius: 10px;
+  background-color: rgb(116, 162, 221);
+}
